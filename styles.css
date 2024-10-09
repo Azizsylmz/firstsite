@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="ust">
+      <h1>
+        <strong><a href="index.html">Spatial</a></strong> BY TEMPLATE
+      </h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Generic</a></li>
+          <li><a href="#">Elements</a></li>
+        </ul>
+      </nav>
+
+      <!-- birinci bolum -->
+      <section id="banner">
+        <h2>Spatial</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur<br />
+          adipisicing elit. Blanditiis.
+        </p>
+        <a href="#">Get Started</a>
+      </section>
+    </header>
+    <!--------Burası 2. sayfan ----->
+    <section class="bolum2">
+      <div class="kapsayici">
+        <div class="left">
+          <h2>Lorem ipsum dolor sit</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="right">
+          <article>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Necessitatibus sit accusantium magni provident nostrum. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
+              sit accusantium magni provident nostrum.
+            </p>
+
+            <p>
+              Necessitatibus Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quibusdam, voluptatum!Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Necessitatibus sit accusantium magni
+              provident nostrum.Lorem ipsum dolor.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="temizle"></div>
+
+    <!--------Burası 3. sayfa ----->
+
+    <section class="bolum3">
+      <h2>lorem forem horem</h2>
+      <p>huvlectus serendus serendipity</p>
+      <div class="kapsayici3">
+
+      /* resimler yanyana gelmedi, revize edilecek 9.10.2024 */
+        <div class="resim1">
+          <img src="image/sahil.jpg" alt="shore" width="400" height="300" />
+          <p>Lorem, ipsum dolor</p>
+        </div>
+
+        <div class="resim2">
+          <img src="image/orman.jpg" alt="forest" width="400" height="300" />
+          <p>Lorem, ipsum dolor</p>
+        </div>
+      </div>
+      <div class="temizle"></div>
+      <ul class="yonlendir">
+        <li><a href="#">Fosem Mosem</a></li>
+        <li><a href="#">Kopsem Topsem</a></li>
+      </ul>
+    </section>
+  </body>
+</html>
