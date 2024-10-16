@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+
 header.ust{
     background-image:url(images/Picture.jpg);
     width:100%;
@@ -69,9 +70,9 @@ top:40%;
 font-size:22px;
 
 text-transform: uppercase;
-letter space:2px;
+letter-spacing:2px;
 margin-bottom:40px;
-
+color:white;
 
 }
 
@@ -83,6 +84,8 @@ margin-bottom:40px;
     font-weight: 200;
 
 }
+/* bolum 2*/
+
 .bolum2{
     width:1000px;
     margin:0 auto;
@@ -90,95 +93,99 @@ margin-bottom:40px;
 }
 .kapsayici{
     width:1000px;
-    padding:0 auto;
+    margin:0 auto;
 }
 .bolum2 .kapsayici .left{
     width:400px;
     float:left;
-    padding-left:70px;
-
+    padding-left:50px;
+    margin-left:50px;
 }
-.bolum2 .left h2{
-font-family: 'Raleway', sans-serif;
-text-transform: uppercase;
-font-size: 40px;
-font-weight: 700;
-line-height: 60px;
-color:#484848;
-
+h2{
+    font-family:'Raleway', sans-serif; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    color:#484848;
 }
-.bolum2 .left p{
-    text-transform:uppercase;
+p{
+    font-family:'Raleway', sans-serif; 
     font-size: 20px;
-    color:#aaa;
+    font-weight: 300;
     line-height: 40px;
-    font-weight: 100;
-    margin-top: 20px;
+    text-transform: uppercase;
+    color:#aaa;
+   margin-top: 10px;
+
 }
-.bolum2 .kapsayici .right{
+.bolum2 .right article{
     width:400px;
-    float:left;
-
-
-  
+    float:right;
+    padding-right:50px;
+    margin-right:50px;
+    
+   
 }
 .bolum2 .right p{
+    line-height: 30px;
     color:#666;
-    line-height:30px;
-   
-    margin-bottom:20px;
-   
+    margin-bottom: 20px;
 }
 .temizle{
     clear:both;
 }
-.bolum3 h2{
-    font-family: 'Raleway', sans-serif;
-text-transform: uppercase;
-color:#484848;
-font-size: 40px;
-font-weight: 700;
-   
-}
-.bolum3 p{
-    font-family: 'Raleway', sans-serif;
-text-transform: uppercase;
-color:#484848;
-font-size: 20px;
-font-weight: 400;
 
-margin-bottom:20px;
-line-height: 40px;
-color:#484848;
-padding-top:10px;
-
-}
+/* Bolum 3 */
 .bolum3{
-width:100%;
-margin:0 auto;
-padding: 50px 0;
-text-align:center;
-background: #f6f6f6;
-
+    width:100%;
+    background-color: #f6f6f6;
+    margin:0 auto;
+    padding:40px 0;
+    text-align:center;
 }
 .bolum3 .kapsayici3{
-   width:55%;
-   margin:0 auto;
+    max-width: 850px;
+    margin:0 auto;
+   padding-left:33px;
 }
-.bolum3 .resim1{
+
+.bolum3 .resim{
     width:400px;
     float:left;
     border:1px solid #ccc;
-    box-shadow: 1px 1px 3px #ccc;
+    margin:20px 10px;
+    
+   box-shadow: 1px 1px 3px #ccc;
     
 }
-.bolum3 .resim2{
-    width:400px;
-    float:right;
-    border:1px solid #ccc;
-    box-shadow: 1px 1px 3px #ccc;
-    
-    
+.resim p{
+    font-size:16px;
+    margin-top:0;
 }
 
+.bolum3 ul{
+   list-style-type:none;
+   max-width: 500px;
+   margin:20px auto;
 
+}
+.bolum3 ul li{
+    display:inline-block
+ 
+}
+  
+.bolum3 ul li a{
+    display:block;
+    padding:10px 30px;
+    color:white;
+    background: red;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+.bolum3 ul li:nth-child(2) a{
+    background: grey;
+}
