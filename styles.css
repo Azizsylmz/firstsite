@@ -189,3 +189,65 @@ p{
 .bolum3 ul li:nth-child(2) a{
     background: grey;
 }
+
+/* Bolum 4 */
+.bolum4{
+    width:100%;
+
+}
+.bolum4 header{
+    margin:20px;
+    padding:10px;
+    background-color:#d06f06;
+}
+.bolum4 .kapsayici4{
+    width:850px;
+    height:800px;
+    background-color:aqua;
+    margin:0 auto;
+   
+   
+}
+.kutu1, .kutu2, .kutu3, .kutu4{
+    width:400px;
+    height:200px;
+    background-color: #06d057;
+    float:left;
+    margin:10px;
+    position:relative;
+}
+
+.kutu2 .yazi, .kutu4 .yazi{
+    width:65%;
+    height:190px;
+    background-color:#d57724;
+    float:right;
+    position:relative;
+
+}
+
+
+
+.kutu2 .resim, .kutu4 .resim{
+    width:30%;
+    background-color: #bcda0f;
+    height:100px;
+    position:relative;
+    float:left;
+}
+.kutu1 .yazi, .kutu3 .yazi{
+    width:65%;
+    height:190px;
+    background-color:#d57724;
+    float:left;
+    position:relative;
+
+}
+.kutu1 .resim, .kutu3 .resim{
+    width:30%;
+    height:100px;
+    background-color:#bcda0f;
+    float:right;
+    position:relative;
+
+}
