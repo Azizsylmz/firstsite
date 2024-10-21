@@ -164,6 +164,12 @@ p{
     margin-top:0;
 }
 
+.resim img{
+width:400px;
+height:300px;
+object-fit:cover;
+
+}
 .bolum3 ul{
    list-style-type:none;
    max-width: 500px;
@@ -198,20 +204,18 @@ p{
 .bolum4 header{
     margin:20px;
     padding:10px;
-    background-color:#d06f06;
+   
 }
 .bolum4 .kapsayici4{
     width:850px;
-    height:800px;
-    background-color:aqua;
+      
     margin:0 auto;
-   
-   
+      
 }
 .kutu1, .kutu2, .kutu3, .kutu4{
     width:400px;
     height:200px;
-    background-color: #06d057;
+   
     float:left;
     margin:10px;
     position:relative;
@@ -220,9 +224,10 @@ p{
 .kutu2 .yazi, .kutu4 .yazi{
     width:65%;
     height:190px;
-    background-color:#d57724;
+    
     float:right;
     position:relative;
+   
 
 }
 
@@ -230,24 +235,155 @@ p{
 
 .kutu2 .resim, .kutu4 .resim{
     width:30%;
-    background-color: #bcda0f;
+    
     height:100px;
     position:relative;
     float:left;
+    
 }
 .kutu1 .yazi, .kutu3 .yazi{
     width:65%;
     height:190px;
-    background-color:#d57724;
+   
     float:left;
     position:relative;
-
+padding-right: 10px;
 }
 .kutu1 .resim, .kutu3 .resim{
     width:30%;
     height:100px;
-    background-color:#bcda0f;
+    
     float:right;
     position:relative;
 
 }
+.yazi h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+
+}
+.kutu2 .yazi h3, .kutu4 .yazi h3, .kutu2 .yazi h4, .kutu4 .yazi h4, .kutu2 .yazi p, .kutu4 .yazi p{
+    text-align:left;
+}
+
+
+.yazi h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 200;
+    margin-bottom: 10px;
+
+
+}
+.yazi p {
+    color:#484848;
+    text-transform:none;
+    text-align: right;
+    font-weight: 400;
+    line-height:normal;
+    font-size: 12px;
+    
+
+
+}
+.resim4 img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid #aaa;
+}
+
+/* Bolum 4 versiyon 2*/
+.bolum42{
+    width:100%;
+    
+    padding-top: 40px;
+    
+}
+.bolum42 .kapsayici42{
+    width:850px;
+    
+    margin: 0 auto;
+    
+}
+.bolum42 h2{
+    margin-left:40px;
+    font-size: 30px;
+   
+    
+}
+.bolum42 h2+p{
+margin-left:40px;
+margin-bottom: 50px;
+}
+
+.bolum42 .bolumler{
+    width:400px;
+    height:220px;
+    float:left;
+    margin:12px;
+    
+    position:relative;
+}
+
+.bolum42 .bolumler .kucukresim{
+    width:140px;
+    height:140px;
+    float:right;
+    
+    
+}
+.bolum42 .kucukresim img{
+    width:130px;
+    height:130px;
+    border-radius: 100%;
+    border:5px solid #aaa;
+}
+.bolum42 .bolumler .yazi42{
+    width:250px;
+    height:200px;
+    float:left;
+    text-align:right;
+    
+   
+}
+.bolum42 .bolumler:nth-child(2n) .yazi42{
+    text-align: left;
+    float:right;
+    
+}
+.bolum42 .bolumler:nth-child(2n) .kucukresim{
+    float:left;
+    
+}
+
+
+
+.bolum42 .bolumler .yazi42 h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#666;
+}
+.yazi42 p:nth-child(2){
+    font-size:12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #484848;
+    
+}
+.yazi42 p:nth-child(3){
+    text-transform: lowercase;
+    font-size: 12px;
+    line-height: normal;
+    color:#484848;
+}
+
+
+
