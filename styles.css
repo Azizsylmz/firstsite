@@ -435,3 +435,135 @@ transition: 0.5s;
 .bolum5 a:hover{
     background-color: crimson;
 }
+
+/* Footer */
+.footer1{
+    width:100%;
+    height:200px;
+    text-align:center;
+    background-color: #dddbdb;
+    
+    padding-top:10px;
+    
+}
+
+.footer1 .simge{
+    width:400px;
+    height:70px;
+    margin: 0 auto;
+   
+    margin-top: 30px;
+}
+.simge img{
+    display:inline-block;
+    width:50px;
+    height:38px;
+    
+    
+    
+    margin:10px;
+    
+
+}
+.footer1 .yazifooter{
+    width:400px;
+    height:50px;
+    
+    color:#656363;
+    font-size: 18px;
+  font-weight: 400;
+    margin:0 auto;
+}
+
+/*----Footer version 2---*/
+.footer2{
+    width:100%;
+    height:200px;
+    text-align: center;
+    background-color:aliceblue;
+}
+.footer2 .sosyal{
+    text-align:center;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.footer2 .sosyal a{
+    display:inline-block;
+    margin-left:30px;
+    margin-bottom: 30px;
+    transform: translateY(25%);
+    
+   
+    
+}
+
+.footer2 a[title="facebook"]::before{
+    content: '';
+    background-image: url('images/footer12.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.footer2 a[title="twitter"]::before{
+    content: '';
+    background-image: url('images/footer22.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.footer2 a[title="linkedin"]::before{
+    content: '';
+    background-image: url('images/footer31.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.footer2 .sosyal ul{
+    
+  
+   text-align: center;
+    
+    list-style: none;
+    margin:0 auto;
+    transform: translateY(-50%); 
+}
+.footer2 .sosyal ul li{
+
+  display:inline-block;
+   padding:0 15px; 
+   
+    
+  
+}
+.footer2 .sosyal ul li p{
+    text-transform: none;
+    font-size: 16px;
+    color: #666;
+    
+    
+    
+}
+.footer2 .sosyal ul li:nth-child(-n+2) p{
+    border-right:2px solid #aaa;
+    padding-right:15px;
+    line-height: 1.2em;
+}
